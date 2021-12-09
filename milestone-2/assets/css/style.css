@@ -1,0 +1,28 @@
+            #site-header {
+                  height: 80px;
+              background: #2e3a46;
+              }
+               .logo {
+                   height: 100%;
+               }
+              #site-main {
+              background: #1e2d3b;
+              min-height: calc(100vh - 80px);
+              }
+            .card {
+              margin-top: 1rem;
+              height: 320px;
+              width: 180px;
+              background: rgba(255, 255, 255, 0.088);
+              text-align: center;
+            }
+              .image {
+                margin-bottom: 1rem;
+              }
+              .title {
+                color: white;
+              }
+              .author,
+              .year {
+                color: gray;
+              }
