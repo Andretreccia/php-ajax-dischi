@@ -17,36 +17,18 @@
 
 <body>
 
-    <div id="app">
-        <header id="site-header" class="p-3">
-            <img class="logo" src="./assets/img/spotify_logo.svg" alt="" />
-        </header>
-        <main id="site-main">
-            <div class="container">
-                <div class="row justify-content-center py-5">
-                    <div class="col col-2" v-for="music in musics">
-                        <div class="card p-3">
-                            <div class="image">
-                                <img class="img-fluid" :src="music.poster" alt="" />
-                            </div>
-                            <div class="title">
-                                <h4 class="text-center text-white text-uppercase fs-5">
-                                    {{music.title}}
-                                </h4>
-                            </div>
-                            <div class="author">
-                                <span>{{music.author}}</span>
-                            </div>
-                            <div class="year">
-                                <span>{{music.year}}</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
 
-    </div>
+    <header id="site-header" class="p-3">
+        <img class="logo" src="./assets/img/spotify_logo.svg" alt="" />
+    </header>
+    <main id="site-main">
+        <div class="container">
+            <?php require __DIR__ . '/layouts/app.php'; ?>
+
+        </div>
+    </main>
+
+
 
 
     <!-- vue cdn -->
